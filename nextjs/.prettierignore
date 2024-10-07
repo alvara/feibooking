@@ -1,0 +1,8 @@
+.next/
+node_modules/
+*.mov
+components.json
+src/components/ui/
+src/hooks/use-toast.ts
+src/lib/utils.ts
+tailwind.config.js

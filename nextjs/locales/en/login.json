@@ -1,0 +1,18 @@
+{
+  "login_page": {
+    "page_title": "Login",
+    "form_title": "Welcome back",
+    "form_description": "Enter your email and password to access your account",
+    "email_label": "Email",
+    "email_placeholder": "Enter your email",
+    "password_label": "Password",
+    "password_placeholder": "Enter your password",
+    "submit_button": "Sign In",
+    "or": "OR",
+    "line_login": "Continue with LINE",
+    "instagram_login": "Continue with Instagram",
+    "no_account": "Don't have an account?",
+    "sign_up": "Sign up",
+    "back": "Back"
+  }
+}

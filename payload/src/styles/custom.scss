@@ -1,0 +1,79 @@
+// Change order for field description to be below the field label for all field types
+.field-type {
+  display: flex;
+  flex-direction: column;
+
+  .field-label {
+    order: 1;
+  }
+
+  .field-description {
+    order: 2;
+    margin-top: 4px;
+    margin-bottom: 8px;
+  }
+
+  .textarea-outer,
+  .input-wrapper,
+  .relationship__wrap,
+  .react-select {
+    order: 3;
+  }
+}
+
+// Specific adjustments for relationship fields
+.field-type {
+  .field-description {
+    margin-top: -12px;
+  }
+}
+
+// Display error validations on mobile
+.field-type.text.error {
+  position: relative;
+  padding: 0px;
+  .field-error {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block !important;
+    font-size: 0.875rem;
+    color: #dc2626;
+    background-color: transparent;
+    margin: 0px;
+    padding: 0px;
+    *content: '*';
+  }
+
+  .tooltip--position-top {
+    display: none !important;
+  }
+
+  .tooltip--position-bottom {
+    position: static;
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+
+    .tooltip-content {
+      background: none;
+      color: inherit;
+      box-shadow: none;
+      padding: 0;
+
+      &::before {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .field-type.text.error {
+    .field-error {
+      position: static;
+      margin-top: 4px;
+    }
+  }
+}

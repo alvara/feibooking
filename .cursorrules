@@ -1,0 +1,9 @@
+This is a mono repo with nextjs directory containing a nextjs app with pages router, shadcn, tailwind, and typescript.
+Functions should not be arrow functions, but regular functions, especially for pages.
+another directory "payload" containing a payload cms installation.
+this monorepo uses pnpm as a managed version of node.
+
+dont include any comments that could indicate Ai generated code.
+DO include comments that clarify and explain code.
+
+DO add extra line breaks to separate chunks of code and to make the code more readable.

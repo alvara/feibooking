@@ -1,0 +1,7 @@
+/* // tailwind.css */
+
+/* // Don't import tailwind's base to avoid potential conflicts with reset styles */
+/* 240515 found conflict with payload radio styles if base enabled */
+/* @tailwind base; */
+@tailwind components;
+@tailwind utilities;

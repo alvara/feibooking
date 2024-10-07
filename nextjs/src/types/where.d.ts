@@ -1,0 +1,12 @@
+declare type WhereAnyOf = any; // eslint-disable-line
+declare type WhereAnyOfTwo = any; // eslint-disable-line
+declare type WhereAnyOfThree = any; // eslint-disable-line
+declare type WhereAnyOfFive = any; // eslint-disable-line
+declare type WhereAnyOfSeven = any; // eslint-disable-line
+declare type WhereAnyOfNine = any; // eslint-disable-line
+declare type WhereAnyOfOneone = any; // eslint-disable-line
+declare type WhereAnyOfOnetwo = any; // eslint-disable-line
+declare type WhereAnyOfOnethree = any; // eslint-disable-line
+declare type WhereAnyOfOnefour = any; // eslint-disable-line
+declare type WhereAnyOfOnefive = any; // eslint-disable-line
+declare type WhereAnyOfOnesix = any; // eslint-disable-line

@@ -1,0 +1,52 @@
+packages:
+  # All packages in the repository
+  - 'nextjs/**'
+  - 'payload/**'
+  - 'tests/**'
+  - 'shared/**'
+# Configure the scope path to match the workspace root
+# scope: ""
+
+# Enable automatic installation of dependencies when running `pnpm install`
+# installPeerDependencies: true
+
+# Enable automatic linking of workspace packages
+# linkWorkspace: true
+
+# Specify custom registries for packages
+# newRegistryUrls:
+#   "@custom-scope": "https://custom-registry.example.com"
+
+# Configure package patching
+# patchedDependencies:
+#   "some-package@1.2.3":
+#     # Path to the patch file
+#     patches:
+#       - path: patches/some-package@1.2.3.patch
+
+# Configure package overrides
+# overrides:
+#   # Override a dependency for all packages
+#   "some-package":
+#     version: "2.0.0"
+
+# Override a dependency for a specific package
+# "nextjs/web-app>some-package":
+#   version: "1.0.0"
+
+# Define environment variables for specific packages or scripts
+# env:
+#   # Set an environment variable for all packages
+#   ALL_PACKAGES:
+#     NODE_ENV: development
+
+# Set an environment variable for a specific package
+# "nextjs/web-app":
+#   NEXT_PUBLIC_API_URL: "http://localhost:3000/api"
+
+# Define custom scripts to run across multiple packages
+# scripts:
+# Build all packages
+# build:
+#   script:
+#     - pnpm --filter "./nextjs/**" -

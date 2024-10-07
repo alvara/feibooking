@@ -1,0 +1,18 @@
+{
+  "login_page": {
+    "page_title": "ログイン",
+    "form_title": "おかえりなさい",
+    "form_description": "メールアドレスとパスワードを入力してアカウントにアクセスしてください",
+    "email_label": "メールアドレス",
+    "email_placeholder": "メールアドレスを入力",
+    "password_label": "パスワード",
+    "password_placeholder": "パスワードを入力",
+    "submit_button": "ログイン",
+    "or": "または",
+    "line_login": "LINEで続ける",
+    "instagram_login": "Instagramで続ける",
+    "no_account": "アカウントをお持ちでない方は",
+    "sign_up": "新規登録",
+    "back": "戻る"
+  }
+}

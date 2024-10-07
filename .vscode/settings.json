@@ -1,0 +1,23 @@
+{
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  },
+  "i18n-ally.enabledFrameworks": ["next-translate"],
+  "i18n-ally.extract.autoDetect": true,
+  "i18n-ally.displayLanguage": "en",
+  "i18n-ally.sourceLanguage": "en",
+  "i18n-ally.keystyle": "nested",
+  "i18n-ally.localesPaths": [
+    "nextjs/locales"
+  ],
+  "i18n-ally.defaultNamespace": "common",
+  "i18n-ally.extract.targetPickingStrategy": "most-similar",
+  "i18n-ally.namespace": true,
+  "i18n-ally.pathMatcher": "{locale}/{namespaces}.json",
+  "search.exclude": {
+    "**/node_modules": true,
+    // for monorepo, exclude projects not working on her
+    // "**/nextjs/**": true
+  }
+}

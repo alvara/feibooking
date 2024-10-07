@@ -1,0 +1,17 @@
+.next/
+node_modules/
+lib/swagger/
+lib/orval/
+src/lib/orval/
+src/lib/orval/**/!(*.d).ts
+src/lib/orval/**/*
+src/api/payload-client/**/*
+storybook-static/
+src/app/(payload)/**
+.eslintrc.cjs
+next.config.js
+next.config.mjs
+postcss.config.js
+tailwind.config.js
+postcss.config.mjs
+src/components/ui/*

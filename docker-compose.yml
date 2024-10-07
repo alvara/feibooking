@@ -1,0 +1,19 @@
+version: "3"
+
+services:
+  payload:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3001:3001"
+    volumes:
+      - ./payload:/home/node/app
+      - node_modules:/home/node/app/node_modules
+    working_dir: /home/node/app/
+    command: sh -c "yarn install && yarn dev"
+    env_file:
+      - .env
+
+volumes:
+  node_modules:

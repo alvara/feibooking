@@ -1,0 +1,47 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Next.js Server",
+      "runtimeExecutable": "${workspaceRoot}/node_modules/.bin/next",
+      "runtimeArgs": ["dev"],
+      "cwd": "${workspaceFolder}/nextjs",
+      "console": "integratedTerminal",
+      "resolveSourceMapLocations": [
+        "${workspaceFolder}/**",
+        "!**/node_modules/**"
+      ]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Payload",
+      "runtimeExecutable": "/opt/homebrew/bin/pnpm",
+      "runtimeArgs": ["run", "dev"],
+      "env": {
+        "NODE_OPTIONS": "--no-deprecation"
+      },
+      "console": "integratedTerminal",
+      "skipFiles": ["<node_internals>/**"],
+      "cwd": "${workspaceFolder}/payload"
+    },
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Next.js Client",
+      "url": "http://localhost:3000",
+      "webRoot": "${workspaceFolder}/nextjs",
+      "sourceMaps": true,
+      // "breakOnLoad": true,
+      "skipFiles": ["node_modules/**/*.js"]
+    }
+  ],
+  "compounds": [
+    {
+      "name": "Debug Fullstack",
+      "configurations": ["Next.js Server", "Payload", "Next.js Client"]
+    }
+  ]
+}

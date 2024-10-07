@@ -1,0 +1,29 @@
+{
+  "nav": {
+    "events": "イベント",
+    "community": "コミュニティ",
+    "coaching": "コーチング",
+    "home": "ホーム",
+    "fitness": "フィットネス",
+    "shop": "ショップ",
+    "login": "ログイン",
+    "signup": "サインアップ"
+  },
+  "footer": {
+    "terms": "利用規約",
+    "privacy_policy": "プライバシーポリシー",
+    "about": "会社概要"
+  },
+  "location": {
+    "submitNewCountry": "提出する",
+    "countries": {
+      "japan": "日本",
+      "thailand": "タイ"
+    },
+    "cities": {
+      "tokyo": "東京",
+      "bangkok": "バンコク"
+    }
+  },
+  "brandName": "フィットフェス"
+}

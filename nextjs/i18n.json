@@ -1,0 +1,17 @@
+{
+  "locales": ["en", "ja"],
+  "defaultLocale": "en",
+  "pages": {
+    "*": ["common"],
+    "/": ["home"],
+    "/login": ["login"],
+    "/signup": ["signup"],
+    "/events/*": ["events"],
+    "/community": ["community"],
+    "/coaching": ["coaching"],
+    "/fitness": ["fitness"],
+    "/shop": ["shop"],
+    "/profile": ["profile"],
+    "/settings": ["settings"]
+  }
+}

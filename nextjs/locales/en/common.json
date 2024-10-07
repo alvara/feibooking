@@ -1,0 +1,29 @@
+{
+  "nav": {
+    "events": "Events",
+    "community": "Community",
+    "coaching": "Coaching",
+    "home": "Home",
+    "fitness": "Fitness",
+    "shop": "Shop",
+    "login": "Login",
+    "signup": "Signup"
+  },
+  "footer": {
+    "terms": "Terms of use",
+    "privacy_policy": "Privacy Policy",
+    "about": "About Us"
+  },
+  "location": {
+    "submitNewCountry": "Submit",
+    "countries": {
+      "japan": "Japan",
+      "thailand": "Thailand"
+    },
+    "cities": {
+      "tokyo": "Tokyo",
+      "bangkok": "Bangkok"
+    }
+  },
+  "brandName": "Fit Festivals"
+}
